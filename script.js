@@ -44,3 +44,23 @@ fadeEls.forEach((el) => {
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   fadeObserver.observe(el);
 });
+
+// Cursor glow
+const glow = document.createElement('div');
+glow.style.cssText = `
+  position: fixed; pointer-events: none; z-index: 9999;
+  width: 300px; height: 300px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,194,255,0.06) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  opacity: 0;
+`;
+document.body.appendChild(glow);
+
+document.addEventListener('mousemove', (e) => {
+  glow.style.left = e.clientX + 'px';
+  glow.style.top = e.clientY + 'px';
+  glow.style.opacity = '1';
+});
+
+document.addEventListener('mouseleave', () => { glow.style.opacity = '0'; });

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blaise Mahoro — Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">BM</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="blaise_mahoro_resume.pdf" target="_blank" class="btn btn-nav-resume">Resume</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">Blaise Mahoro</h1>
+      <p class="hero-title">Software Developer <span class="at">&amp;</span> AI/ML Engineer</p>
+      <p class="hero-sub">Full-stack engineer building cutting-edge web applications and intelligent systems.<br/>AWS Certified · UT Austin AI/ML · Oklahoma City, OK</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="blaise_mahoro_resume.pdf" target="_blank" class="btn btn-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/blaise-mahoro/" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/BlaiseMahoro" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-inner">
+        <span class="badge-label">AWS Certified</span>
+        <span class="badge-sub">Developer – Associate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a software developer with 5 years of experience building production-grade web applications and enterprise tools. At Paycom, I designed task management systems integrated with ticketing platforms, built Cron jobs for multi-system data sync, and led collaborative code design and review sessions to uphold high engineering standards.</p>
+          <p>I'm currently completing a PGP in Artificial Intelligence and Machine Learning at the UT Austin McCombs School of Business, where I've applied ML to real-world problems — from predicting corporate bankruptcy to modeling asset volatility and air quality.</p>
+          <p>Fluent in English and French, I bring a global perspective and a passion for building systems that are both intelligent and reliable.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Languages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">B.S.+M.S.</span>
+            <span class="stat-label">Dual Degree CS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; Technologies</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Languages</h3>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Java</span>
+            <span class="tag">C#</span>
+            <span class="tag">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Frameworks &amp; Libraries</h3>
+          <div class="tags">
+            <span class="tag">React.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Django</span>
+            <span class="tag">Flask</span>
+            <span class="tag">ASP.NET</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Cloud &amp; DevOps</h3>
+          <div class="tags">
+            <span class="tag tag-accent">AWS</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Git</span>
+            <span class="tag">Bitbucket</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Cron Jobs</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">ML &amp; Data Science</h3>
+          <div class="tags">
+            <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Seaborn</span>
+            <span class="tag">Google Colab</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">CNNs</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Databases</h3>
+          <div class="tags">
+            <span class="tag">SQLite</span>
+            <span class="tag">Relational Databases</span>
+            <span class="tag">Big Data</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">CS Fundamentals</h3>
+          <div class="tags">
+            <span class="tag">Algorithms</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Networks</span>
+            <span class="tag">Operating Systems</span>
+            <span class="tag">Network Security</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Vibe Coding</h3>
+          <div class="tags">
+            <span class="tag tag-accent">Vibe Coding</span>
+            <span class="tag">AI-assisted Dev</span>
+            <span class="tag">Rapid Prototyping</span>
+            <span class="tag">Intuitive Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Software Developer</h3>
+              <span class="timeline-company">Paycom LLC · Oklahoma City, OK</span>
+            </div>
+            <span class="timeline-date">March 2021 – February 2026</span>
+            <ul class="timeline-bullets">
+              <li>Designed and implemented a task management system integrated with a ticketing platform to enhance client inquiry visibility.</li>
+              <li>Actively engaged in collaborative code design and review discussions to drive optimal software development practices and ensure high-quality code standards.</li>
+              <li>Designed, developed, and maintained Cron jobs for synchronizing client data among systems.</li>
+            </ul>
+            <div class="tags timeline-tags">
+              <span class="tag tag-sm">Full-stack</span>
+              <span class="tag tag-sm">Task Management</span>
+              <span class="tag tag-sm">Cron Jobs</span>
+              <span class="tag tag-sm">Code Review</span>
+              <span class="tag tag-sm">AWS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Award callout -->
+      <div class="award-card">
+        <div class="award-icon">🏆</div>
+        <div class="award-text">
+          <strong>Innovative Project Award — Q3 2021</strong>
+          <p>Awarded at Paycom for building automatic call log and JIRA integration features into the company CRM system.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <h3 class="projects-sub-title">Applied Data Science · WorldQuant University</h3>
+      <div class="projects-grid" style="margin-bottom: 3rem;">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📉</span>
+            <span class="project-date">2024 – 2025</span>
+          </div>
+          <h3>Corporate Bankruptcy Predictor</h3>
+          <p>Built Random Forest and Gradient Boosting models to predict corporate bankruptcy. Addressed class imbalance with resampling techniques and optimized precision/recall trade-offs.</p>
+          <div class="tags">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Scikit-learn</span>
+            <span class="tag tag-sm">Random Forest</span>
+            <span class="tag tag-sm">Gradient Boosting</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📈</span>
+            <span class="project-date">2024 – 2025</span>
+          </div>
+          <h3>Asset Volatility Forecasting</h3>
+          <p>Created a GARCH time-series model to predict asset volatility in India. Delivered predictions through a custom-built API backed by a SQLite database.</p>
+          <div class="tags">
+            <span class="tag tag-sm">GARCH</span>
+            <span class="tag tag-sm">Time Series</span>
+            <span class="tag tag-sm">REST API</span>
+            <span class="tag tag-sm">SQLite</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🌍</span>
+            <span class="project-date">2024 – 2025</span>
+          </div>
+          <h3>Emerging Market Property Valuation</h3>
+          <p>Conducted Chi-square tests for enrollment optimization and built linear regression models to predict property values in emerging markets (Mexico &amp; Argentina).</p>
+          <div class="tags">
+            <span class="tag tag-sm">Linear Regression</span>
+            <span class="tag tag-sm">Chi-square</span>
+            <span class="tag tag-sm">Pandas</span>
+            <span class="tag tag-sm">Seaborn</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🌫️</span>
+            <span class="project-date">2024 – 2025</span>
+          </div>
+          <h3>Air Quality &amp; Structural Damage Models</h3>
+          <p>Developed an ARMA time-series model for air quality in Nairobi. Used Decision Trees to predict structural damage in Nepal, accounting for data bias and discrimination.</p>
+          <div class="tags">
+            <span class="tag tag-sm">ARMA</span>
+            <span class="tag tag-sm">Decision Trees</span>
+            <span class="tag tag-sm">Bias Mitigation</span>
+            <span class="tag tag-sm">NumPy</span>
+          </div>
+        </div>
+
+      </div>
+
+      <h3 class="projects-sub-title">Earlier Projects</h3>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📱</span>
+            <span class="project-date">April 2020</span>
+          </div>
+          <h3>IP Lookup</h3>
+          <p>A NativeScript mobile application that lets users look up data on any IP address or domain — including geolocation, ISP, and network information.</p>
+          <div class="tags">
+            <span class="tag tag-sm">NativeScript</span>
+            <span class="tag tag-sm">Mobile</span>
+            <span class="tag tag-sm">APIs</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🕷️</span>
+            <span class="project-date">Feb – Mar 2020</span>
+          </div>
+          <h3>Checkmate Library</h3>
+          <p>A Python-based web scraping tool for Draft2Digital, built with Mechanize and BeautifulSoup to automate content discovery and data extraction workflows.</p>
+          <div class="tags">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">BeautifulSoup</span>
+            <span class="tag tag-sm">Mechanize</span>
+            <span class="tag tag-sm">Automation</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📚</span>
+            <span class="project-date">Jan – Feb 2020</span>
+          </div>
+          <h3>Online Book Store</h3>
+          <p>A full-featured e-commerce platform for books built with Django and Python, including product listings, cart, and checkout functionality.</p>
+          <div class="tags">
+            <span class="tag tag-sm">Django</span>
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">E-commerce</span>
+            <span class="tag tag-sm">SQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">💬</span>
+            <span class="project-date">June 2019</span>
+          </div>
+          <h3>Chat App</h3>
+          <p>A real-time instant messaging application powered by Node.js and Socket.io, enabling multi-user chat rooms with live message broadcasting.</p>
+          <div class="tags">
+            <span class="tag tag-sm">Node.js</span>
+            <span class="tag tag-sm">Socket.io</span>
+            <span class="tag tag-sm">Real-time</span>
+            <span class="tag tag-sm">JavaScript</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certs -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education &amp; Certifications</h2>
+      <div class="edu-grid">
+
+        <div class="edu-col">
+          <h3 class="edu-col-title">Education</h3>
+
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-info">
+              <h4>PGP in AI &amp; Machine Learning: Business Applications</h4>
+              <p class="edu-school">UT Austin McCombs School of Business</p>
+              <p class="edu-date">November 2025 – Present</p>
+              <p class="edu-desc">Deep Learning · NLP · CNNs · Time Series · Data Visualization · Docker · Flask</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon">🏛️</div>
+            <div class="edu-info">
+              <h4>B.S. &amp; M.S. Dual Degree — Computer Science</h4>
+              <p class="edu-school">Oklahoma Christian University</p>
+              <p class="edu-date">August 2017 – November 2020</p>
+              <p class="edu-desc"><strong>President's List</strong> · Algorithms · OS · Networks · OOP · Assembly · Big Data</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-col">
+          <h3 class="edu-col-title">Certifications</h3>
+
+          <div class="cert-list">
+            <div class="cert-item cert-featured">
+              <span class="cert-badge">AWS</span>
+              <div>
+                <strong>AWS Certified Developer – Associate</strong>
+                <span class="cert-date">Jul 2023 · Valid through Jul 2026</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">PY</span>
+              <div>
+                <strong>Advanced Python</strong>
+                <span class="cert-date">LinkedIn Learning · Jul 2021</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">API</span>
+              <div>
+                <strong>Rest API Intermediate</strong>
+                <span class="cert-date">HackerRank · Jul 2020</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">RJS</span>
+              <div>
+                <strong>Learning React.js</strong>
+                <span class="cert-date">LinkedIn · Mar 2020</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">SEC</span>
+              <div>
+                <strong>Ethical Hacking</strong>
+                <span class="cert-date">Udemy · Nov 2019</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">NET</span>
+              <div>
+                <strong>Network Defense &amp; Countermeasures</strong>
+                <span class="cert-date">uCertify · Nov 2019</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">JS</span>
+              <div>
+                <strong>NodeJS Development</strong>
+                <span class="cert-date">Udemy · Sep 2019</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-badge cert-badge-gray">PY</span>
+              <div>
+                <strong>Complete Python Bootcamp</strong>
+                <span class="cert-date">Udemy · Jun 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-dark">
+    <div class="container contact-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">I'm open to new opportunities, collaborations, and conversations about technology. Feel free to reach out through any of the channels below.</p>
+      <div class="contact-grid">
+
+        <a href="mailto:bmahoro123@gmail.com" class="contact-card">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="contact-card-text">
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-value">bmahoro123@gmail.com</span>
+          </div>
+        </a>
+
+<a href="https://www.linkedin.com/in/blaise-mahoro/" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <div class="contact-card-text">
+            <span class="contact-card-label">LinkedIn</span>
+            <span class="contact-card-value">blaise-mahoro</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/BlaiseMahoro" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <div class="contact-card-text">
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-value">BlaiseMahoro</span>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="resume-cta">
+        <a href="blaise_mahoro_resume.pdf" target="_blank" class="btn btn-primary btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Blaise Mahoro &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/blaise-mahoro/" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://github.com/BlaiseMahoro" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

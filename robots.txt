@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blaisemahoro.github.io/sitemap.xml
